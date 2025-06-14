@@ -22,7 +22,8 @@ A complete ETL pipeline for processing cyberbullying text data with NLP enrichme
 │   ├── preprocessing.py    # Text cleaning
 │   ├── preprocess_mongo.py # MongoDB text 
 │   ├── nlp_pipeline.py     # Language & sentiment analysis
-│   └── es_ingest.py       
+│   └── es_ingest.py
+├── tests/
 │   ├── test_scraper.py
 │   ├── test_preprocessing.py
 │   └── test_nlp_pipeline.py
